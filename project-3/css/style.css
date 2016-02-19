@@ -2,6 +2,7 @@
 
 body {
 	font-family: 'Open Sans', serif;
+	width:100%;
 	font-size:1em;
 	background-image:url(../images/abstrakt-tile.jpg);
 	background-size:cover;
@@ -53,7 +54,7 @@ a:active {
 /* content background */
 
 #wrapper {
-	width:50em;
+	width:56.5%;
 	margin:auto;
 	padding:1em;
 	border-radius:.5em .5em 0 0;
@@ -69,7 +70,7 @@ h1 {
 	text-shadow:.07em .07em .07em #CC6B00;
 }
 h3 {
-	width:20em;
+	width:70%;
 	height:auto;
 	padding:.5em;
 	border:.1em solid #ff8f00 ;
@@ -120,7 +121,7 @@ figure {
 }
 
 p {
-	width:25em;
+	width:80%;
 }
 
 section {
