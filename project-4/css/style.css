@@ -1,0 +1,232 @@
+/* body */
+
+body {
+	font-family: 'Open Sans', serif;
+	width:100%;
+	font-size:1em;
+	background-image:url(../images/abstrakt-tile.jpg);
+	background-repeat:repeat;
+	background-position:bottom;
+	margin:.5em 0 0 0;
+	background-color:#ff8f00;
+	
+}
+
+/* header and links */
+
+header {
+	width:100%;
+	text-align:center;
+
+}
+ul {
+	text-align:center;
+	margin:auto;
+	list-style-type:none;
+}
+
+li {
+	text-align:center;
+	margin:auto;
+	padding:1em;
+	font-weight:bold;
+	display:inline;
+}
+
+/* Header link effects */
+a:link {
+	text-decoration:none;
+	color:#ff0105;
+
+}
+a:visited {
+color:#000;
+
+}
+a:hover {
+	color:#f97b00;
+}
+
+a:active {
+	color:#6F0275;
+}
+
+/* content background */
+
+#wrapper {
+	width:56.5%;
+	margin:auto;
+	padding:1em;
+	border-radius:.5em .5em 0 0;
+	background: #fff;
+	background: linear-gradient(to bottom, #fff, #e6e6e6);
+	
+}
+
+/* main content */
+
+h1 {
+	color:#ff0004;
+	text-shadow:.07em .07em .07em #cc6b00;
+}
+h3 {
+	width:auto;
+	height:auto;
+	padding:.5em;
+	border:.1em solid #ff8f00 ;
+	background-color:#f9f8d9;
+	color:#ff0004;
+}
+
+/* image border */
+
+img {
+	width:auto;
+	border:.3em solid #ff4b00;
+	border-radius:.5em;
+}
+
+/* image effects */
+
+img:hover {
+	border:.3em solid #ffd800;
+	box-shadow:.2em .2em 2em #000;
+	opacity:.9;
+	
+}
+
+/* Link back to Top */
+
+#bottomup {
+	float:left;
+	clear:both;
+	width:100%;
+	border:.1em solid #ff8f00 ;
+	background-color:#f9f8d9;
+	text-align:center;
+	font-weight:bold;
+	color:#ff0004;
+}
+
+/* Link back to top effects */
+
+#upit:visited {
+	color:#ff0004;
+}
+
+/* Image captions */
+
+figure {
+	text-align:center;
+	font-size:.8em;
+}
+
+p {
+	width:80%;
+}
+
+section {
+	background-image:url(../images/pattern_145.gif);
+	background-repeat:repeat;
+	background-position:center;
+	color:#fff;
+	text-align:center;
+	margin:1em 0 auto 2em;
+	width:40%;
+	border-radius:1em;
+	float:left;
+}
+#content {
+	float:left;
+	padding:1em;
+	margin:auto;
+	width:50%;
+}
+footer {
+	text-align:center;
+	float:bottom left;
+	clear:both;
+}
+figcaption {
+	font-size:1.25em;
+}
+/* table */
+#tab {
+	width:100%;
+	margin:auto;
+	float:left;
+	clear:both;
+}
+table {
+	width:90%;
+	margin:1em auto;
+	text-align:center;
+	background-color:#ff9400;
+	border-collapse:collapse;
+	
+}
+th {
+	padding:.75em 1em .75em 1em;
+}
+td {
+	padding:1em;
+}
+table, th, td {
+	border:.1em #000000 solid;
+	line-height:120%;
+}
+tr:hover {
+	background-color:yellow;
+}
+.cname {
+	background-color:#664100;
+	color:#fff;
+}
+#form {
+	background-color:#fff;
+	width:100%;
+	float:left;
+	clear:both;
+	
+}
+form {
+	padding:1em;
+	background-color:#fff;
+	margin:auto;
+	width:50%;
+	height:8em;
+}
+input {
+	background-color:#fafabb;
+	border-radius:1em;
+	float:right;
+}
+.inp:hover {
+	color:black;
+}
+.inp {
+	padding-right:.5em;
+	float:left;
+}
+select {
+	float:right;
+}
+#nxt {
+	clear:both;
+	float:left;
+}
+#yes {
+	float:left;
+}
+#no {
+	float:left;
+}
+#yep {
+	float:left;
+}
+#nope {
+	float:left;
+}
+input:focus {
+	background-color:yellow;
+}
